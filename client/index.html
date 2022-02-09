@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Cloud Wars</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="a.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-desktop-web-app-capable" content="yes">
+  <meta name="apple-desktop-web-app-status-bar-style" content="black">
+  <meta name="apple-desktop-web-app-title" content="Cloud Wars">
+  <meta name="msapplication-TileImage" content="a.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  </head>
+  <body class="fullscreen">
+    <canvas id="gc"></canvas>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://threejs.org/build/three.min.js"></script>
+    <script src="things.js"></script>
+    <script src="main.js"></script>
+    <script src='controls.js'></script>
+    <script src='sw.js'></script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport">
+    <meta name="theme-color" content="white"/>
+    <audio src="12.wav"autoplay loop></audio>
+  </body>
+</html>
